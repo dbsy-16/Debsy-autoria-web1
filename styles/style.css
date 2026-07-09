@@ -1,21 +1,46 @@
-h2, h2, h3 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(103, 17, 173);
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+
+:root {
+    /* f4e285-8541a0-d683d4-14213d-9cf6f6 */
+    --amarelo: #f4e285
+    --roxo: #8541a0
+    --rosa: #d683d4
+    --azul:
+
 }
 
+
+h1,
+h2,
+h3 {
+  font-family: "Cinzel", serif;
+  color: rgb(103, 17, 173);
+  background-image: url("https://i.pinimg.com/736x/4e/da/a8/4edaa88417fc8715ccb37c11af983147.jpg");
+}
+
+body {
+  font-family: "Garamond", serif,;
+  background: url("https://i.pinimg.com/1200x/3c/92/3c/3c923c42563009b883364fd0baabd11b.jpg");
+  color: rgb(72, 30, 110);
+
+}
 p {
+  color: rgb(73, 18, 126);
+}
 
+table{
+background: url("https://i.pinimg.com/736x/9f/2e/bc/9f2ebc72b17d786afe6c5a9e87cece00.jpg");
 
 }
 
+footer {
+    background: url("https://i.pinimg.com/736x/14/d1/be/14d1be537f93e3191de315af1569e5c2.jpg");
+}
 /* seleção de id é só pra coisas unicas no codigo coom # */
-
 
 /* classe: (tem que ter um ponto no começo o nome) é só pra um item em específico; */
 
-
 /* pra uma parte em especifoc do texto : spam;    */
 
-
 /* seleção de elementos em especifico de uma determinada classe */
-
