@@ -1,0 +1,21 @@
+:root {
+/* 000000-14213d-fca311-e5e5e5-ffffff */
+    --preto: #000000;
+    --azulmarinho: #14213d;
+    --laranja: #fca311;
+    --cinza: #e5e5e5;
+    --branco: #ffffff;
+}
+
+h1 {
+    color: #fca311;
+}
+
+body{
+    background-color: #ffffff;
+     
+}
+
+.fundo {
+    background-color: var(--azulmarinho);
+}

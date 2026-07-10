@@ -10,6 +10,17 @@
   --ciano: #9cf6f6;
 }
 
+/* css reset */
+/* margin: espaçaemnto externpo */
+/* padding: espaçamento interno */
+
+*{
+margin: 0; 
+padding: 0;
+box-sizing: border-box;
+
+}
+
 h1,
 h2,
 h3 {
@@ -20,6 +31,8 @@ h3 {
 body {
   font-family: "Garamond", serif;
   background-color: rgb(255, 254, 239);
+  padding-left: 10px; 
+
 }
 p {
   color:;
@@ -37,11 +50,43 @@ width: 20rem;
 border-radius: 50%;
 
 }
+/* top right bottom left */
+.fundoimg {
+  background-image: url("https://thumbs.dreamstime.com/b/fundo-amarelo-da-flor-110578784.jpg");
+}
+
+#nav-links ul {
+list-style-type: none;
+margin-top: 30px;
+}
+
+#nav-links li {
+display: inline-block; 
+
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--roxo);
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/02/21/31/chess-1233157_1280.jpg");
+  border-radius: 0px 10px;
+  padding: 10px;
+}
+
+a:hover {
+  color: var(--roxo);
+  box-shadow: 0 0 8px var(--ciano)
+
+}
 
 .fundo {
   background-color: var(--roxo);
   border-radius: 5px;
 }
+
+
+
 
 
 
