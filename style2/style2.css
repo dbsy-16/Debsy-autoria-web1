@@ -1,81 +1,109 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
 :root {
-/* 000000-14213d-fca311-e5e5e5-ffffff */
-    --preto: #000000;
-    --azulmarinho: #14213d;
-    --laranja: #fca311;
-    --cinza: #e5e5e5;
-    --branco: #ffffff;
+  /* 000000-14213d-fca311-e5e5e5-ffffff */
+  --preto: #000000;
+  --azulmarinho: #14213d;
+  --laranja: #fca311;
+  --cinza: #e5e5e5;
+  --branco: #ffffff;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
-    font-family: "Press Start 2P", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    padding-bottom: 20px;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 20px;
 }
 
-#embaixotitulo {}
+h3,
+h2 {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
-h3 {
+.outrafonte {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+main {
+  height: 681px;
 }
 
 .cor {
-    color: #fca311;
+  color: #fca311;
 }
 
-body{
-    background-color: #ffffff;
-     
+body {
+  background-color: #ffffff;
 }
 
 .fundo {
-    background-color: var(--azulmarinho);
-    padding: 20px;
-    border-bottom: 10px solid var(--cinza);
+  background-color: var(--azulmarinho);
+  padding: 20px;
+  border-bottom: 10px solid var(--cinza);
 }
 
 #nav-links ul {
-list-style-type: none;
-margin-top: 30px;
-padding-bottom: 20px;
+  list-style-type: none;
+  margin-top: 30px;
+  padding-bottom: 20px;
 }
 
 #nav-links li {
-display: inline-block; 
-padding-left: 10px;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+#inicio {
+  border: 5px solid var(--laranja);
+  width: fit-content; 
+  border-radius: 0px 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
 }
 
 a {
-font-family:"Press Start 2P", system-ui;
-font-weight: 4;
-font-size: 10px;
-font-style: normal;
-background-color: #e5e5e5;
-color: var(--azulmarinho);
-border-radius: 5px;
-padding: 10px 10px;
+  text-decoration: none;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 4;
+  font-size: 10px;
+  font-style: normal;
+  background-color: #e5e5e5;
+  color: var(--azulmarinho);
+  border-radius: 0px 5px;
+  padding: 10px 10px;
 }
 
 a:hover {
   color: var(--laranja);
-  box-shadow: 0 0 8px var(--preto)
-
+  box-shadow: 0 0 5px var(--preto);
 }
 
 footer {
-    color: #fca311;
-    background-color: var(--azulmarinho);
-    padding: 20px;
-    border-top: 10px solid var(--cinza);
-    border-bottom: 10px  solid var(--azulmarinho);
+  color: #fca311;
+  background-color: var(--azulmarinho);
+  padding: 20px;
+  border-top: 10px solid var(--cinza);
+  border-bottom: 10px solid var(--azulmarinho);
 }
