@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap");
+
+/* Paleta */
+
 :root {
   /* 000000-14213d-fca311-e5e5e5-ffffff */
   --preto: #000000;
@@ -10,6 +13,8 @@
   --cinza: #e5e5e5;
   --branco: #ffffff;
 }
+
+/* Separei por classes de seletores. */
 
 * {
   margin: 0;
@@ -31,56 +36,19 @@ h2 {
   font-style: normal;
 }
 
-.outrafonte {
-  font-family: "DotGothic16", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 main {
   height: 681px;
-}
-
-.cor {
-  color: #fca311;
 }
 
 body {
   background-color: #ffffff;
 }
 
-.fundo {
-  background-color: var(--azulmarinho);
-  padding: 20px;
-  border-bottom: 10px solid var(--cinza);
-}
-
-#nav-links ul {
-  list-style-type: none;
-  margin-top: 30px;
-  padding-bottom: 20px;
-}
-
-#nav-links li {
-  display: inline-block;
-  padding-left: 10px;
-}
-
-#inicio {
-  border: 5px solid var(--laranja);
-  width: fit-content; 
-  border-radius: 0px 10px;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
 p {
   font-family: "Tektur", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-
+  font-variation-settings: "wdth" 100;
 }
 
 a {
@@ -106,4 +74,76 @@ footer {
   padding: 20px;
   border-top: 10px solid var(--cinza);
   border-bottom: 10px solid var(--azulmarinho);
+}
+
+/* Classe "." */
+
+.cor {
+  color: #fca311;
+}
+
+.outrafonte {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fundo {
+  background-color: var(--azulmarinho);
+  padding: 20px;
+  border-bottom: 10px solid var(--cinza);
+}
+
+.titulo-secao {
+  border: 2px solid var(--laranja);
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
+.card-programa {
+  background-color: var(--cinza);
+  border: 1px solid var(--azulmarinho);
+  width: fit-content;
+  border-radius: 0px 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* id "#" */
+
+#nav-links ul {
+  list-style-type: none;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+#nav-links li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+#inicio {
+  border: 5px solid var(--laranja);
+  width: fit-content;
+  border-radius: 0px 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#programacao {
+  border: 1px solid var(--azulmarinho);
+  width: fit-content;
+  border-radius: 0px 10px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+#contato {
+  background-color: var(--azulmarinho);
+  color: var(--laranja);
+  border: 1px solid var(--cinza);
+  width: fit-content;
+  border-radius: 0px 10px;
+  padding: 10px;
+  margin-top: 30px;
 }
